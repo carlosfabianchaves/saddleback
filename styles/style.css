@@ -92,7 +92,7 @@ nav ul li{
     font-size: 70px;
     text-align: center;
 }
-.landing-page span{
+.bottom-line-span{
     width: 150px;
     border-bottom: solid #fff 2px;
     display: block;
@@ -113,8 +113,12 @@ nav ul li{
     margin-top: 40px;
     
 }
+
+
+
+
 .featured-text-container{
-    background: linear-gradient(transparent, #002541);
+    background: linear-gradient(transparent, #004579);
 }
 .landing-page .video-container{    
     width: 770px;
@@ -123,6 +127,60 @@ nav ul li{
     padding: 5px;
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.3);
+    max-width: 80%;
+}
+
+.landing-page .resort-desc{
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway-Regular';
+    font-size: 17px;
+    width: 770px;
+    margin: auto;
+    display: block;
+    line-height: 32px;
+    margin-top: 40px;
+    max-width: 80%;
+    margin-bottom: 150px;
+    
+}
+.secondary-hero{
+    background-image: url('../img/secondary-hero.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.secondary-hero .secondary-titles-container h1{
+    color: #fff;
+    font-family: 'Raleway-Bold';
+    text-align: center;
+    font-size: 70px;
+}
+
+.secondary-hero .secondary-titles-container h3{
+    color: #fff;
+    font-family: 'Raleway-Bold';
+    text-align: center;
+    font-size: 40px;
+}
+.circle-top{
+    background-image: url('../img/curved-top.png');
+    height: 85px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 84px;
+}
+
+.circle-bottom{
+    background-image: url('../img/curved-bottom.png');
+    height: 85px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 84px;
+    margin-top: 150px;
 }
 
 /*Mobile */
@@ -156,7 +214,7 @@ nav ul li{
     }
 
     .landing-page .featured-text-container{
-        background-color: #004579;
+        /* background-color: #004579; */
         padding-top: 20px;
     }
     .landing-page .featured-text{
@@ -165,6 +223,15 @@ nav ul li{
         width: 228px;
         margin-top: 0px;
         
+    }
+
+    .landing-page .video-container{
+        max-width: 80%;
+        
+    }
+
+    .landing-page .video-container iframe{
+        height: 211px;
     }
 }
 
